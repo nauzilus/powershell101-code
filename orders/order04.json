@@ -1,0 +1,19 @@
+{
+	"order": {
+		"customer": 424242,
+		"lineitem": [
+			{
+				"code": "JBH",
+				"action": "sell",
+				"quantity": 40,
+				"price": 2.23
+			},
+			{
+				"code": "TLS",
+				"action": "buy",
+				"quantity": 1000,
+				"price": 23.56
+			}
+		]
+	}
+}

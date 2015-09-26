@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<order customer="987654">
+	<lineitem>
+		<code>QAN</code>
+		<action>sell</action>
+		<quantity>10</quantity>
+		<price>2.43</price>
+	</lineitem>
+	<lineitem>
+		<code>CBA</code>
+		<action>sell</action>
+		<quantity>100</quantity>
+		<price>75.12</price>
+	</lineitem>
+</order>

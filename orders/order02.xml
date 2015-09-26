@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<order customer="555666">
+	<lineitem>
+		<code>IIN</code>
+		<action>buy</action>
+		<quantity>100</quantity>
+		<price>9.00</price>
+	</lineitem>
+	<lineitem>
+		<code>COH</code>
+		<action>buy</action>
+		<quantity>1000</quantity>
+		<price>82.20</price>
+	</lineitem>
+</order>

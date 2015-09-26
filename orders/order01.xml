@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<order customer="123456">
+	<lineitem>
+		<code>IIN</code>
+		<action>sell</action>
+		<quantity>500</quantity>
+		<price>9.56</price>
+	</lineitem>
+	<lineitem>
+		<code>SMX</code>
+		<action>buy</action>
+		<quantity>500</quantity>
+		<price>5.00</price>
+	</lineitem>
+	<lineitem>
+		<code>MYR</code>
+		<action>buy</action>
+		<quantity>1000</quantity>
+		<price>0.80</price>
+	</lineitem>
+</order>
