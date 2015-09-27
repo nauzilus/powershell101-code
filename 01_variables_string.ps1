@@ -1,11 +1,14 @@
 ﻿$name = "Sam"
-Write"name => $name"
+Write-Host "name => $name"
 
 $greeting = "Hello, $name."
 Write-Host "greeting => $greeting"
 
-$contrived = "$name's name has $($name.Length) characters"
-Write-Host "contrived => $contrived"
+$length = "$name's name has $($name.Length) characters"
+Write-Host "length($($length.GetType())) => $length"
+
+$length = 42
+Write-Host "length($($length.GetType())) => $length"
 
 $literally = '$name is literally the variable name'
 Write-Host "literally => $literally"
