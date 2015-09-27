@@ -3,6 +3,7 @@ Write-Host "names => $($names -join ', ')"
 
 $names += "Ainsley"
 Write-Host "names => $($names -join ', ')"
+Write-Host "first => $($names[0])"
 
 $numbers = @(0 .. 9)
 Write-Host "numbers => $($numbers -join ', ')"
